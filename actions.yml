@@ -2,8 +2,7 @@ name: Run pypdf.py
 
 on:
   schedule:
-    - cron: '1 0 0 0 0' # At 18:00 on Sunday
-
+    - cron: '* * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
